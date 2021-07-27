@@ -8,8 +8,6 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
-- 😃 [Use icons from any icon sets, with no compromise](./src/components)
-
 - 🌍 [I18n ready](./locales)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
