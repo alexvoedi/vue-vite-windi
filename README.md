@@ -6,7 +6,7 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - 📦 [Components auto importing](./src/components)
 
-- 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
+- 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
 - 😃 [Use icons from any icon sets, with no compromise](./src/components)
 
