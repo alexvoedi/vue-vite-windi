@@ -1,13 +1,13 @@
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
 export const useAnalysisStore = defineStore({
-  id: 'base',
+  id: "base",
 
   state() {
-    return {}
+    return {};
   },
 
   actions: {},
 
   getters: {},
-})
+});

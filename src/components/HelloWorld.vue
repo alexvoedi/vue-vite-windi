@@ -1,9 +1,7 @@
 <template>
-  <div>{{ text }}</div>
+  <div>{{ $t("hello") }}</div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-
-const text = ref("Hello World")
+console.log("Hello World");
 </script>

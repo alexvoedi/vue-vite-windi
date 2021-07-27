@@ -29,12 +29,12 @@
 ### Plugins
 
 - [Vue Router](https://github.com/vuejs/vue-router)
-- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
-- [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - WindiCSS support
-- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
-  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
-- [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
+- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components)
+- [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss)
+- [Vue I18n](https://github.com/intlify/vue-i18n-next)
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n)
+- [VueUse](https://github.com/antfu/vueuse)
+- [`@vueuse/head`](https://github.com/vueuse/head)
 
 ### Coding Style
 
@@ -43,18 +43,14 @@
 ### Dev tools
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
+- [pnpm](https://pnpm.js.org/)
 - [VS Code Extensions](./.vscode/extensions.json)
-  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
-  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
-  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
-  - [Windi CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense) - IDE support for Windi CSS
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify)
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+  - [Windi CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## Try it now!
-
-### GitHub Template
+## GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/alexvoedi/vue-vite-windi).
 
