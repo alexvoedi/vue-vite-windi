@@ -52,7 +52,7 @@
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 ## GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/alexvoedi/vue-vite-windi).
+[Create a repo from this template on GitHub](https://github.com/alexvoedi/vue-vite-windi/generate).
 
 ## Checklist
 
