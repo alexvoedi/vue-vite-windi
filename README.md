@@ -1,12 +1,12 @@
+Inspired by [Vitesse](https://github.com/antfu/vitesse).
+
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild)
 
 - 📦 [Components auto importing](./src/components)
 
-- 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
-
-- 😃 [Use icons from any icon sets, with no compromise](./src/components)
+- 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
 - 🌍 [I18n ready](./locales)
 
@@ -52,7 +52,7 @@
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 ## GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/alexvoedi/vue-vite-windi).
+[Create a repo from this template on GitHub](https://github.com/alexvoedi/vue-vite-windi/generate).
 
 ## Checklist
 
