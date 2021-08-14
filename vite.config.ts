@@ -18,7 +18,7 @@ export default defineConfig({
     ViteComponents({
       globalComponentsDeclaration: true,
       deep: true,
-      dirs: ["src/views", "src/components"],
+      dirs: ["src/views", "src/components", "src/layouts"],
       customComponentResolvers: [ViteIconsResolver()],
     }),
 
