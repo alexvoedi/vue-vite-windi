@@ -65,8 +65,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes
 
-And, enjoy :)
-
 ## Usage
 
 ### Development
