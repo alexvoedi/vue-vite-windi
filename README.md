@@ -12,7 +12,7 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
-- 🦾 TypeScript, of course
+- 🦾 TypeScript
 
 ## Pre-packed
 
