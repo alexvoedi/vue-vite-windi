@@ -8,7 +8,7 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
-- 🌍 [I18n ready](./locales)
+- 🌍 [I18n](./locales)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
