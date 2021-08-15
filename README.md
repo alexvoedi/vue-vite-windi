@@ -8,11 +8,11 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
-- 🌍 [I18n ready](./locales)
+- 🌍 [I18n](./locales)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
-- 🦾 TypeScript, of course
+- 🦾 TypeScript
 
 ## Pre-packed
 
@@ -64,8 +64,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Change the favicon in `public`
 - [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes
-
-And, enjoy :)
 
 ## Usage
 
