@@ -13,7 +13,8 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "node"
     ],
     "paths": {
       "@/*": [
