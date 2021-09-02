@@ -17,6 +17,9 @@ import "virtual:windi-components.css";
 import "virtual:windi-utilities.css";
 import "virtual:windi-devtools";
 
+import "@iconify/iconify";
+import "@purge-icons/generated";
+
 app.use(routes);
 app.use(pinia);
 app.use(head);

@@ -2,15 +2,13 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild)
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [ESBuild](https://github.com/evanw/esbuild)
 
 - 📦 [Components auto importing](./src/components)
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
 - 🌍 [I18n](./locales)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
 - 🦾 TypeScript
 
@@ -25,6 +23,7 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 - [Iconify](https://iconify.design)
 - [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons)
+- [`vite-plugin-purge-icons`](https://github.com/antfu/purge-icons)
 
 ### Plugins
 
@@ -35,10 +34,6 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
   - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n)
 - [VueUse](https://github.com/antfu/vueuse)
 - [`@vueuse/head`](https://github.com/vueuse/head)
-
-### Coding Style
-
-- Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
 
 ### Dev tools
 
@@ -64,23 +59,3 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Change the favicon in `public`
 - [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes
-
-## Usage
-
-### Development
-
-Just run and visit http://localhost:3000
-
-```bash
-pnpm dev
-```
-
-### Build
-
-To build the App, run
-
-```bash
-pnpm build
-```
-
-And you will see the generated file in `dist` that ready to be served.

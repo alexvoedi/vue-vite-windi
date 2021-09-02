@@ -5,6 +5,7 @@ import VueI18n from "@intlify/vite-plugin-vue-i18n";
 import ViteIcons, { ViteIconsResolver } from "vite-plugin-icons";
 import ViteComponents from "vite-plugin-components";
 import WindiCSS from "vite-plugin-windicss";
+import PurgeIcons from "vite-plugin-purge-icons";
 
 export default defineConfig({
   resolve: {
@@ -20,10 +21,15 @@ export default defineConfig({
       globalComponentsDeclaration: true,
       deep: true,
       dirs: ["src/views", "src/components", "src/layouts"],
-      customComponentResolvers: [ViteIconsResolver()],
+      customComponentResolvers: [
+        ViteIconsResolver({
+          componentPrefix: "icon",
+        }),
+      ],
     }),
 
     ViteIcons(),
+    PurgeIcons(),
 
     WindiCSS(),
 
@@ -35,6 +41,7 @@ export default defineConfig({
   ],
 
   server: {
+    port: 8080,
     fs: {
       strict: true,
     },
