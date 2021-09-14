@@ -38,7 +38,6 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 ### Dev tools
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [pnpm](https://pnpm.js.org/)
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify)
