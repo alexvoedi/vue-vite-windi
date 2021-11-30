@@ -15,7 +15,7 @@
   "devDependencies": {
     "@iconify/json": "^1.1.435",
     "@intlify/vite-plugin-vue-i18n": "^3.2.1",
-    "@types/node": "^16.11.10",
+    "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "@vitejs/plugin-vue": "^1.10.1",
@@ -33,6 +33,6 @@
     "vite-plugin-icons": "^0.6.5",
     "vite-plugin-purge-icons": "^0.7.0",
     "vite-plugin-windicss": "^1.5.3",
-    "vue-tsc": "^0.29.7"
+    "vue-tsc": "^0.29.8"
   }
 }
