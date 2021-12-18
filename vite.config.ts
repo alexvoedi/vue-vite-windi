@@ -2,8 +2,9 @@ import { defineConfig } from "vite";
 import path from "path";
 import Vue from "@vitejs/plugin-vue";
 import VueI18n from "@intlify/vite-plugin-vue-i18n";
-import ViteIcons, { ViteIconsResolver } from "vite-plugin-icons";
-import ViteComponents from "vite-plugin-components";
+import Icons from "unplugin-icons/vite";
+import IconsResolver from "unplugin-icons/resolver";
+import Components from "unplugin-vue-components/vite";
 import WindiCSS from "vite-plugin-windicss";
 import PurgeIcons from "vite-plugin-purge-icons";
 
@@ -17,18 +18,19 @@ export default defineConfig({
   plugins: [
     Vue(),
 
-    ViteComponents({
-      globalComponentsDeclaration: true,
+    Components({
+      dts: true,
       deep: true,
+      include: [/\.vue$/, /\.vue\?vue/],
       dirs: ["src/views", "src/components", "src/layouts"],
-      customComponentResolvers: [
-        ViteIconsResolver({
+      resolvers: [
+        IconsResolver({
           componentPrefix: "icon",
         }),
       ],
     }),
 
-    ViteIcons(),
+    Icons(),
     PurgeIcons(),
 
     WindiCSS(),
