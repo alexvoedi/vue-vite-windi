@@ -1,14 +1,12 @@
-import { defineConfig } from 'windicss/helpers'
-import typography from 'windicss/plugin/typography'
+import { defineConfig } from "windicss/helpers";
+import typography from "windicss/plugin/typography";
 
 export default defineConfig({
-  darkMode: 'class',
+  darkMode: "class",
 
   attributify: true,
 
-  plugins: [
-    typography(),
-  ],
+  plugins: [typography()],
 
   theme: {},
-})
+});

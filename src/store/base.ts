@@ -1,11 +1,9 @@
 import { defineStore } from "pinia";
 
-export const useBaseStore = defineStore({
-  id: "base",
+export type BaseStore = any;
 
-  state() {
-    return {};
-  },
+export const useBaseStore = defineStore("base", {
+  state: (): BaseStore => ({}),
 
   actions: {},
 
