@@ -1,4 +1,23 @@
 {
+  "name": "",
+  "version": "0.0.1",
+  "description": "<app description>",
+  "keywords": [],
+  "homepage": "<app homepage>",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "dev": "vite",
     "build": "cross-env NODE_ENV=production vite build",
