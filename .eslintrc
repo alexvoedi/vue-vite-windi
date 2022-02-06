@@ -20,5 +20,9 @@
     "@vue/typescript/recommended",
     "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-prettier"
-  ]
+  ],
+  "globals": {
+    "defineProps": "readonly",
+    "defineEmits": "readonly"
+  }
 }
