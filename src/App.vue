@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>Hello World</div>
+  <router-view></router-view>
 </template>
 
 <style lang="postcss"></style>
