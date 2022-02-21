@@ -2,9 +2,9 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse).
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [ESBuild](https://github.com/evanw/esbuild)
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite](https://github.com/vitejs/vite)
 
-- 📦 [Components auto importing](./src/components)
+- 📦 Components auto importing
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
 
