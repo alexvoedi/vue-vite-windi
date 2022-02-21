@@ -5,6 +5,7 @@ import VueI18n from "@intlify/vite-plugin-vue-i18n";
 import Icons from "unplugin-icons/vite";
 import IconsResolver from "unplugin-icons/resolver";
 import Components from "unplugin-vue-components/vite";
+import AutoImport from "unplugin-auto-import/vite";
 import WindiCSS from "vite-plugin-windicss";
 import PurgeIcons from "vite-plugin-purge-icons";
 
@@ -30,6 +31,21 @@ export default defineConfig({
           componentPrefix: "icon",
         }),
       ],
+    }),
+
+    AutoImport({
+      include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
+      imports: [
+        "@vueuse/core",
+        "@vueuse/head",
+        "pinia",
+        "vue",
+        "vue-i18n",
+        "vue-router",
+      ],
+      eslintrc: {
+        enabled: true,
+      },
     }),
 
     Icons(),
