@@ -21,7 +21,9 @@ export default defineConfig({
     Components({
       dts: true,
       deep: true,
+      directoryAsNamespace: true,
       include: [/\.vue$/, /\.vue\?vue/],
+      globalNamespaces: ["views", "components"],
       dirs: ["src/views", "src/components", "src/layouts"],
       resolvers: [
         IconsResolver({

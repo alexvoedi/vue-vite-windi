@@ -23,7 +23,8 @@
   ],
   "globals": {
     "defineProps": "readonly",
-    "defineEmits": "readonly"
+    "defineEmits": "readonly",
+    "withDefaults": "readonly"
   },
   "rules": {
     "vue/multi-word-component-names": [
