@@ -53,6 +53,6 @@
     "vite": "^2.8.6",
     "vite-plugin-purge-icons": "^0.8.1",
     "vite-plugin-windicss": "^1.8.3",
-    "vue-tsc": "^0.33.1"
+    "vue-tsc": "^0.34.5"
   }
 }
